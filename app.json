@@ -5,14 +5,17 @@
     "slug": "kawai-todo",
     "privacy": "public",
     "sdkVersion": "26.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F23657"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,6 +25,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "co.yesdoing.todoapp"
     }
   }
 }
